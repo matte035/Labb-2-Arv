@@ -5,8 +5,8 @@ namespace Labb_2___Arv
     public class Djur
     {
         public int Age;
-        public int Height;
-        public int Weight;
+        public string Height;
+        public string Weight;
         public string Gender;
         public string Food;
 
@@ -23,6 +23,10 @@ namespace Labb_2___Arv
             Console.WriteLine();
         }
 
+        public void PrintAnimal()
+        {
+            Console.WriteLine();
+        }
 
     }
     class Program
@@ -31,8 +35,32 @@ namespace Labb_2___Arv
         static void Main(string[] args)
         {
             Cat C = new Cat();
+            Dog D = new Dog();
+            Rabbit R = new Rabbit();
 
-           
+            C.Age = 2;
+            C.Height = "50 cm";
+            C.Weight = "1 KG ";
+            C.Gender = "Female";
+            C.Food = "Fish";
+            C.PrintAnimal();
+
+            D.Age = 10;
+            D.Height = "110 cm";
+            D.Weight = "4 KG ";
+            D.Gender = "Male";
+            D.Food = "Bones";
+            D.PrintAnimal();
+
+            R.Age = 5;
+            R.Height = "40 cm";
+            R.Weight = "0.5 KG ";
+            R.Gender = "Female";
+            R.Food = "Carrot";
+            R.PrintAnimal();
+            
+
+            Console.ReadKey();
         }
     }
 }

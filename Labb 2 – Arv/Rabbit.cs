@@ -4,15 +4,14 @@ using System.Text;
 
 namespace Labb_2___Arv
 {
-    public class Cat : Djur
+    public class Rabbit : Djur
     {
-        public int legs;
+        public string Color = "White";
+       
 
-        public void hunt()
+        public void Dig()
         {
-            Console.WriteLine();
+
         }
-        
     }
-    
 }
