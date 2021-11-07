@@ -11,7 +11,7 @@ namespace Labb_2___Arv
 
         public void Dig()
         {
-
+            Console.WriteLine();
         }
     }
 }

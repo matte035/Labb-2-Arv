@@ -28,8 +28,13 @@ namespace Labb_2___Arv
             Console.WriteLine();
         }
 
+        public void MakeSound()
+        {
+            Console.WriteLine();
+        }
+
     }
-    class Program
+   public class Program
     {
        
         static void Main(string[] args)
@@ -44,6 +49,7 @@ namespace Labb_2___Arv
             C.Gender = "Female";
             C.Food = "Fish";
             C.PrintAnimal();
+            C.MakeSound();
 
             D.Age = 10;
             D.Height = "110 cm";
@@ -51,6 +57,7 @@ namespace Labb_2___Arv
             D.Gender = "Male";
             D.Food = "Bones";
             D.PrintAnimal();
+            D.MakeSound();
 
             R.Age = 5;
             R.Height = "40 cm";
@@ -58,7 +65,7 @@ namespace Labb_2___Arv
             R.Gender = "Female";
             R.Food = "Carrot";
             R.PrintAnimal();
-            
+            R.MakeSound();
 
             Console.ReadKey();
         }
